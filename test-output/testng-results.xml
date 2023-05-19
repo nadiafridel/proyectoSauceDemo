@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-10T15:34:04 ART" name="Default suite" finished-at="2023-05-10T15:34:07 ART" duration-ms="3329">
+    <groups>
+    </groups>
+    <test started-at="2023-05-10T15:34:04 ART" name="Default test" finished-at="2023-05-10T15:34:07 ART" duration-ms="3329">
+      <class name="Tests.Testsauce">
+        <test-method is-config="true" signature="open(java.lang.String)[pri:0, instance:Tests.Testsauce@2e8c1c9b]" started-at="2023-05-10T15:34:01 ART" name="open" finished-at="2023-05-10T15:34:04 ART" duration-ms="3060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:Tests.Testsauce@2e8c1c9b]" started-at="2023-05-10T15:34:04 ART" name="login" data-provider="File data" finished-at="2023-05-10T15:34:04 ART" duration-ms="298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="end(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.Testsauce@2e8c1c9b]" started-at="2023-05-10T15:34:04 ART" name="end" data-provider="File data2" finished-at="2023-05-10T15:34:07 ART" depends-on-methods="Tests.Testsauce.login" duration-ms="2572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[maria]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[perez]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method is-config="true" signature="cerrarPagina()[pri:0, instance:Tests.Testsauce@2e8c1c9b]" started-at="2023-05-10T15:34:07 ART" name="cerrarPagina" finished-at="2023-05-10T15:34:07 ART" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarPagina -->
+      </class> <!-- Tests.Testsauce -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
